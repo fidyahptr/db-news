@@ -1,0 +1,174 @@
+{
+  "admins": [
+    {
+      "email": "admin@example.com",
+      "password": "password"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password",
+      "address": "132, My Street, Kingston, New York 12401.",
+      "phoneNumber": "+123456789",
+      "referral": "john@example.com",
+      "referralUsed": 0,
+      "like": {
+        "tech": 3,
+        "social": 2,
+        "health": 1
+      },
+      "isSubscription": true,
+      "expiredSubs": "01/14/2024"
+    },
+    {
+      "id": 2,
+      "name": "Amelie",
+      "email": "amelie@example.com",
+      "password": "password",
+      "address": "132, My Street, Kingston, New York 12401.",
+      "phoneNumber": "+123456789",
+      "referral": "amelie@example.com",
+      "referralUsed": 0,
+      "like": {
+        "tech": 0,
+        "social": 0,
+        "health": 0
+      },
+      "isSubscription": false,
+      "expiredSubs": "12/12/2023"
+    },
+    {
+      "name": "Fidyah",
+      "email": "fidyah@mail.com",
+      "password": "password",
+      "address": "Sopo del tower",
+      "phoneNumber": "0812345678",
+      "referral": "fidyah@mail.com",
+      "like": {
+        "tech": 0,
+        "social": 0,
+        "health": 1
+      },
+      "isSubscription": false,
+      "expiredSubs": "",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "title": "Breaking News",
+      "desc": "A major event occurred today. \n\nLorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, explicabo. Expedita, temporibus molestiae quia aliquam labore libero consequatur dignissimos illum id odit accusamus porro nobis quaerat reiciendis laudantium ad. Voluptatibus non, sit necessitatibus, eum cumque, commodi nesciunt voluptatum vel velit alias aliquam perferendis? Sunt reiciendis rem a autem nihil cumque molestias nobis laudantium praesentium ex. Dolorem, ipsa tempora?",
+      "picture": "https://res.cloudinary.com/dh38vhao4/image/upload/v1702526486/vcai7i43ogskvkh821gm.jpg",
+      "isPremium": true,
+      "category": "social",
+      "like": [],
+      "share": 0,
+      "createdAt": "12/01/2023",
+      "updatedAt": "12/14/2023",
+      "id": 1
+    },
+    {
+      "title": "Next Js",
+      "desc": "New version.\n\n Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, explicabo. Expedita, temporibus molestiae quia aliquam labore libero consequatur dignissimos illum id odit accusamus porro nobis quaerat reiciendis laudantium ad. Voluptatibus non, sit necessitatibus, eum cumque, commodi nesciunt voluptatum vel velit alias aliquam perferendis? Sunt reiciendis rem a autem nihil cumque molestias nobis laudantium praesentium ex. Dolorem, ipsa tempora?",
+      "picture": "https://res.cloudinary.com/dh38vhao4/image/upload/v1702526550/deh0dtetet6mdrquib8d.webp",
+      "isPremium": false,
+      "category": "tech",
+      "like": [],
+      "share": 5,
+      "createdAt": "12/14/2023",
+      "updatedAt": "12/14/2023",
+      "id": 2
+    },
+    {
+      "title": "Stunting Indonesia",
+      "desc": "Avoid stunting .in indonesia.\n\n Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, explicabo. Expedita, temporibus molestiae quia aliquam labore libero consequatur dignissimos illum id odit accusamus porro nobis quaerat reiciendis laudantium ad. Voluptatibus non, sit necessitatibus, eum cumque, commodi nesciunt voluptatum vel velit alias aliquam perferendis? Sunt reiciendis rem a autem nihil cumque molestias nobis laudantium praesentium ex. Dolorem, ipsa tempora?",
+      "picture": "https://res.cloudinary.com/dh38vhao4/image/upload/v1702526622/bw0yfjxekb6bfda60i4x.jpg",
+      "isPremium": false,
+      "category": "health",
+      "like": [
+        1
+      ],
+      "share": 0,
+      "createdAt": "12/14/2023",
+      "updatedAt": "12/14/2023",
+      "id": 3
+    },
+    {
+      "title": "Debat capres",
+      "desc": "hehe. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, explicabo. Expedita, temporibus molestiae quia aliquam labore libero consequatur dignissimos illum id odit accusamus porro nobis quaerat reiciendis laudantium ad. Voluptatibus non, sit necessitatibus, eum cumque, commodi nesciunt voluptatum vel velit alias aliquam perferendis? Sunt reiciendis rem a autem nihil cumque molestias nobis laudantium praesentium ex. Dolorem, ipsa tempora?",
+      "picture": "https://res.cloudinary.com/dh38vhao4/image/upload/v1702527012/ciogc92vdyxbamogmprs.jpg",
+      "isPremium": true,
+      "category": "social",
+      "like": [
+        1
+      ],
+      "share": 0,
+      "createdAt": "12/12/2023",
+      "updatedAt": "12/12/2023",
+      "id": 4
+    },
+    {
+      "title": "Humane officially launches the AI Pin",
+      "desc": "smartpin. \n\nakjndjkdnqiodniqwodjqwiodjqowpdjqopwdkqpowdkqw\njadnwqkndqwjdqwjdoqwkdowqkdowqkdowqkdowqkdowqkdowqkdwdm\njwndkjewndkjwendfewfjewfsfnewhrewhrewhr",
+      "picture": "https://res.cloudinary.com/dh38vhao4/image/upload/v1702529024/yt27mhyq73lcb1xxh3ne.jpg",
+      "isPremium": false,
+      "category": "tech",
+      "like": [],
+      "share": 1,
+      "createdAt": "12/14/2023",
+      "updatedAt": "12/14/2023",
+      "id": 5
+    },
+    {
+      "title": "4 sehat 5 sempurna",
+      "desc": "Makanan 4 sehat 5 sempurna\nLorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, explicabo. Expedita, temporibus molestiae quia aliquam labore libero consequatur dignissimos illum id odit accusamus porro nobis quaerat reiciendis laudantium ad. Voluptatibus non, sit necessitatibus, eum cumque, commodi nesciunt voluptatum vel velit alias aliquam perferendis? Sunt reiciendis rem a autem nihil cumque molestias nobis laudantium praesentium ex. Dolorem, ipsa tempora?",
+      "picture": "https://res.cloudinary.com/dh38vhao4/image/upload/v1703166614/gxo4bfhnemks3igsnjzm.jpg",
+      "isPremium": false,
+      "category": "health",
+      "like": [
+        3
+      ],
+      "share": 0,
+      "createdAt": "12/20/2023",
+      "updatedAt": "12/21/2023",
+      "id": 6
+    },
+    {
+      "title": "Machine Learning",
+      "desc": "machine learning\nkjabdsailndlnfa;fncsjmsd\nkjandbasndioajsdioadapidjpaosdjaosdja;lsa;lsdma;sd\nnskldnalkdalskdnasdad",
+      "picture": "https://res.cloudinary.com/dh38vhao4/image/upload/v1703131131/ehmszrficqdvrl4idsy9.jpg",
+      "isPremium": true,
+      "category": "tech",
+      "like": [],
+      "share": 0,
+      "createdAt": "12/21/2023",
+      "updatedAt": "12/21/2023",
+      "id": 7
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1001,
+      "userId": 1,
+      "email": "john@example.com",
+      "type": 1,
+      "status": "completed",
+      "price": 50000,
+      "createdAt": "2023-01-05",
+      "updatedAt": "2023-01-05"
+    },
+    {
+      "id": 1002,
+      "userId": 1,
+      "email": "john@example.com",
+      "type": 2,
+      "status": "completed",
+      "price": 400000,
+      "createdAt": "2023-03-05",
+      "updatedAt": "2023-03-05"
+    }
+  ]
+}
